@@ -1,0 +1,251 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(15, 15, 20, 0.35);
+  backdrop-filter: blur(12px);
+
+  z-index: 1000;
+}
+
+nav h3 {
+  margin: 0;
+  color:#ffffff;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.nav-logo {
+  height: 90px;
+  width: auto;
+  display: block;
+}
+body {
+  margin: 0;
+  background: #111118;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background:
+  linear-gradient(
+    rgba(15,15,20,0.65),
+    rgba(15,15,20,0.75)
+  ),
+  url("/assets/hero.jpeg");
+  background-size: 125%;
+  background-position: center 8%;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 80px 20px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+.logo {
+  width: 170px;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  color: #bbbbbb;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 40px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+gap: 20px;
+
+  width: 100%;
+  box-sizing: border-box;
+  padding: 22px 28px;
+
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+
+background: rgba(15,15,18,.82);
+border: 1px solid rgba(255,45,65,.45);
+border-radius: 24px;
+
+backdrop-filter: blur(12px);
+
+box-shadow:
+  0 0 0 1px rgba(255,45,65,.15),
+  0 0 18px rgba(255,45,65,.18),
+  inset 0 1px 0 rgba(255,255,255,.05);
+
+transition: all .25s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px) scale(1.02);
+
+  border-color: rgba(255,60,80,.9);
+
+  box-shadow:
+      0 0 24px rgba(255,40,60,.55),
+      0 0 50px rgba(255,40,60,.25);
+}
+.about {
+  max-width: 650px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #b5b5b5;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+.content {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+
+  margin-bottom: 40px;
+
+  font-size: 3rem;
+}
+.socials a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.25s ease;
+
+  filter: drop-shadow(0 0 10px rgba(255,40,60,.18));
+}
+
+.socials a:hover {
+  color: #ff304f;
+  transform: translateY(-3px) scale(1.15);
+
+  filter: drop-shadow(0 0 18px rgba(255,40,60,.55));
+}
+.platform-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+
+  filter: drop-shadow(0 0 8px rgba(255,40,60,.18));
+}
+
+.platform-icon[src*="onlyfans"] {
+  width: 28px;
+  height: 28px;
+}
+
+.platform-icon[src*="stripchat"] {
+  width: 26px;
+  height: 26px;
+}
+
+.platform-icon[src*="adultfolio"] {
+  width: 34px;
+  height: 34px;
+}
+
+.platform-icon[src*="fetlife"] {
+  width: 24px;
+  height: 24px;
+}
+.button-text {
+  flex: 1;
+  text-align: left;
+}
+.button-arrow {
+  margin-left: auto;
+  font-size: 1.5rem;
+  color: #ff304f;
+}
+.button-badge {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background: rgba(255,255,255,.025);
+  border: 1px solid rgba(255,255,255,.04);
+}
+.button-content {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+}
+.button-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: .3px;
+}
+
+.button-arrow {
+  color: #ff304f;
+  font-size: 1.5rem;
+  transition: transform .25s ease;
+}
+
+.button:hover .button-arrow {
+  transform: translateX(6px);
+}
+.button-primary {
+  transform: scale(1.04);
+  margin-bottom: 12px;
+}
+
+.button-primary:hover {
+  transform: scale(1.06) translateY(-3px);
+}
