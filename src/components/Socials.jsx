@@ -16,7 +16,7 @@ export default function Socials() {
         <FaTiktok />
       </a>
 
-      <a href="https://t.me/JayDubz" target="_blank" rel="noreferrer">
+      <a href="https://t.me/+GhWJ7-rB-ZI3ZGE0" target="_blank" rel="noreferrer">
         <FaTelegramPlane />
       </a>
     </section>
