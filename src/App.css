@@ -3,7 +3,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 12px 30px;
+  padding: 6px 18px;
 
   display: flex;
   justify-content: space-between;
@@ -22,7 +22,7 @@ nav h3 {
   letter-spacing: 1px;
 }
 .nav-logo {
-  height: 90px;
+  height: 45px;
   width: auto;
   display: block;
 }
