@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <img
-        src="/assets/logo.webp"
+        src="/assets/logo.png"
         alt="JayDubz"
         className="logo"
       />
